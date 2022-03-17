@@ -20,7 +20,7 @@ Time taken to complete this challenge: 4 hours
 1. Navigate to the server directory
 
 ```bash
-cd skyspecs-starter/server
+cd skyspecs-challenge/server
 ```
 
 2. Install necessary dependencies
@@ -60,7 +60,7 @@ cd ../client
 otherwise:
 
 ```bash
-cd skyspecs-starter/server
+cd skyspecs-challenge/server
 ```
 
 1. Install necessary dependencies
