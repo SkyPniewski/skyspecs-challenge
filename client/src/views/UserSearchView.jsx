@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router';
 const UserSearch = (props) => {
     const navigate = useNavigate()
 
+    //Function to update the active gist and then navigate to details view
     function viewGist(gist){
         props.onViewGist(gist, '/search');
         navigate('/details')

@@ -12,7 +12,7 @@ async function connect(){
     return client
 }
 
-
+//Save a gist id to the favorite table
 async function saveFavorite(id){
   return new Promise((resolve, reject) => {
     connect().then(client => {
@@ -26,6 +26,7 @@ async function saveFavorite(id){
   })
 }
 
+//Remove a gist id from the favorite table
 async function removeFavorite(id){
   return new Promise((resolve, reject) => {
     connect().then(client => {
@@ -39,6 +40,7 @@ async function removeFavorite(id){
   })
 }
 
+//Get only distinct values of the gist ids
 async function getFavorites(){
   return new Promise((resolve,reject) => 
     connect().then(client => {
@@ -52,6 +54,7 @@ async function getFavorites(){
     }))
 }
 
+//Thought that this could come in handy before managing the logic in React instead
 async function isFavorite(id){
   return new Promise((resolve, reject) => {
     connect().then(client => {

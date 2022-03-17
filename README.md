@@ -1,6 +1,8 @@
 # SkySpecs Software Engineer Coding Challenge - Skylar Pniewski
 
-Additional build requirements are listed u
+Additional build requirements are listed below after given prerequisites
+
+Time taken to complete this challenge: 4 hours
 
 # Getting Started
 
@@ -10,8 +12,6 @@ Additional build requirements are listed u
 - npm
 
 [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-
-[https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
 
 ## Installation
 
@@ -27,12 +27,6 @@ cd skyspecs-starter/server
 
 ```bash
 npm i
-```
-
-3. Run the application
-
-```bash
-npm run start
 ```
 
 #### Database
@@ -81,9 +75,14 @@ npm i
 npm run start
 ```
 
-### ADDITIONAL BUILD - AFTER SERVER AND DATABASE
+### ADDITIONAL BUILD REQUIREMENT - AFTER SERVER AND DATABASE
 
-1. Before runnning your sever, run a migrate to create the necessary database table
+1. Navigate to the server directory, run a migrate to create the necessary database table
 ```bash
 node migrate
+```
+
+2. Run the application
+```bash
+npm run start
 ```
