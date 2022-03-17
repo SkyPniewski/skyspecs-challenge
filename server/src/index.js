@@ -7,7 +7,6 @@ app.use(cors());
 app.use(express.json());
 
 require('dotenv').config();
-console.log(process.env)
 
 const gists = require("./lib/gists");
 const favorites = require("./lib/favorites");
