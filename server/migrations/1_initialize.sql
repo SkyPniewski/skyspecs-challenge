@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS Favorites (
+    ID serial PRIMARY KEY,
+    GIST_ID VARCHAR(64) NOT NULL
+);
